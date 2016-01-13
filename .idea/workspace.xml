@@ -21,60 +21,16 @@
     <favorites_list name="pdo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index_exemplo_pdo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_exemplo_pdo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.041667">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
-              <folding>
-                <marker date="1452706023882" expanded="true" signature="101:182" placeholder="insert into clientes... " />
-                <marker date="1452706023882" expanded="true" signature="241:263" placeholder="Select * fro... clientes" />
-                <marker date="1452706023882" expanded="true" signature="448:470" placeholder="Select * fro... clientes" />
-                <marker date="1452706023882" expanded="true" signature="714:736" placeholder="Select * fro... clientes" />
-                <marker date="1452706023882" expanded="true" signature="714:745" placeholder="Select * fro... clientes" />
-                <marker date="1452706023882" expanded="true" signature="714:749" placeholder="Select * fro... clientes" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cliente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cliente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-              <folding>
-                <marker date="1452708475631" expanded="true" signature="223:258" placeholder="Select * fro... clientes" />
-                <marker date="1452708475631" expanded="true" signature="513:545" placeholder="Select * fro... clientes" />
-                <marker date="1452708475631" expanded="true" signature="513:553" placeholder="Select * fro... clientes" />
-                <marker date="1452708475631" expanded="true" signature="593:615" placeholder="Select * fro... clientes" />
-                <marker date="1452708475631" expanded="true" signature="779:834" placeholder="Insert into clientes... " />
-                <marker date="1452708475631" expanded="true" signature="1111:1168" placeholder="Update clien... " />
-                <marker date="1452708475631" expanded="true" signature="1498:1531" placeholder="Delete from " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5978552">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Cliente.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Cliente.php" />
+        <option value="$PROJECT_DIR$/EntidadeInterface.php" />
+        <option value="$PROJECT_DIR$/ServiceDb.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -88,8 +44,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="142" />
+    <option name="x" value="405" />
+    <option name="y" value="191" />
     <option name="width" value="735" />
     <option name="height" value="540" />
   </component>
@@ -190,10 +146,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="142" width="735" height="540" extended-state="0" />
-    <editor active="true" />
+    <frame x="405" y="191" width="735" height="540" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22040816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22040816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -243,10 +199,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037783377">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35656837">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08042896">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index_exemplo_pdo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.041667">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
+        <state vertical-scroll-proportion="1.6487936">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <marker date="1452706023882" expanded="true" signature="101:182" placeholder="insert into clientes... " />
             <marker date="1452706023882" expanded="true" signature="241:263" placeholder="Select * fro... clientes" />
@@ -258,34 +238,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente.php">
+    <entry file="file://$PROJECT_DIR$/ServiceDb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state vertical-scroll-proportion="2.3672922">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
           <folding>
-            <marker date="1452708475631" expanded="true" signature="223:258" placeholder="Select * fro... clientes" />
-            <marker date="1452708475631" expanded="true" signature="513:545" placeholder="Select * fro... clientes" />
-            <marker date="1452708475631" expanded="true" signature="513:553" placeholder="Select * fro... clientes" />
-            <marker date="1452708475631" expanded="true" signature="593:615" placeholder="Select * fro... clientes" />
-            <marker date="1452708475631" expanded="true" signature="779:834" placeholder="Insert into clientes... " />
-            <marker date="1452708475631" expanded="true" signature="1111:1168" placeholder="Update clien... " />
-            <marker date="1452708475631" expanded="true" signature="1498:1531" placeholder="Delete from " />
+            <marker date="1452711056984" expanded="true" signature="247:301" placeholder="Select * fro... clientes" />
+            <marker date="1452711056984" expanded="true" signature="556:607" placeholder="Select * fro... clientes" />
+            <marker date="1452711056984" expanded="true" signature="655:669" placeholder="Select * fro... $" />
+            <marker date="1452711056984" expanded="true" signature="655:696" placeholder="Select * fro... clientes" />
+            <marker date="1452711056984" expanded="true" signature="860:934" placeholder="INSERT INTO clientes... " />
+            <marker date="1452711056984" expanded="true" signature="1227:1303" placeholder="Update clien... " />
+            <marker date="1452711056984" expanded="true" signature="1657:1709" placeholder="Delete from " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/EntidadeInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037783377">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5978552">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.32171583">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>

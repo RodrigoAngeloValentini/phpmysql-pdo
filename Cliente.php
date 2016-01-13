@@ -1,75 +1,29 @@
 <?php
 
-class Cliente
+class Cliente implements EntidadeInterface
 {
-    private $db;
-
+    private $table = "clientes";
     private $id;
     private $nome;
     private $email;
 
-
-    public function __construct(\PDO $db){
-        $this->db = $db;
+    /**
+     * @return string
+     */
+    public function getTable()
+    {
+        return $this->table;
     }
 
-    public function find($id){
-        $query = "Select * from clientes where id=:id";
-
-        $stmt = $this->db->prepare($query);
-        $stmt->bindValue(":id", $id);
-
-        $stmt->execute();
-
-        return $stmt->fetch(\PDO::FETCH_ASSOC);
+    /**
+     * @param string $table
+     */
+    public function setTable($table)
+    {
+        $this->table = $table;
+        return $this;
     }
 
-    public function listar($ordem = null){
-
-        if($ordem){
-            $query = "Select * from clientes order by {$ordem}";
-        }else{
-            $query = "Select * from clientes";
-        }
-
-
-        $stmt = $this->db->query($query);
-        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
-    }
-
-    public function inserir(){
-        $query = "INSERT INTO clientes(nome,email) VALUES (:nome, :email)";
-        $stmt = $this->db->prepare($query);
-        $stmt->bindValue(":nome", $this->getNome());
-        $stmt->bindValue(":email", $this->getEmail());
-
-        if($stmt->execute()){
-            return true;
-        }
-    }
-
-    public function alterar(){
-        $query = "Update clientes set nome=:nome, email=:email where id=:id";
-
-        $stmt = $this->db->prepare($query);
-        $stmt->bindValue(":id", $this->getId());
-        $stmt->bindValue(":nome", $this->getNome());
-        $stmt->bindValue(":email", $this->getEmail());
-
-        if($stmt->execute()){
-            return true;
-        }
-    }
-
-    public function deletar($id){
-        $query = "Delete from clientes where id=:id";
-        $stmt = $this->db->prepare($query);
-        $stmt->bindValue(":id", $id);
-
-        if($stmt->execute()){
-            return true;
-        }
-    }
 
     /**
      * @return PDO
@@ -79,7 +33,6 @@ class Cliente
         return $this->db;
 
     }
-
     /**
      * @param PDO $db
      */
@@ -139,6 +92,5 @@ class Cliente
         $this->email = $email;
         return $this;
     }
-
 
 }
