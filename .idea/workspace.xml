@@ -74,6 +74,7 @@
       <list>
         <option value="$PROJECT_DIR$/Cliente.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -270,6 +271,14 @@
             <marker date="1452708475631" expanded="true" signature="1111:1168" placeholder="Update clien... " />
             <marker date="1452708475631" expanded="true" signature="1498:1531" placeholder="Delete from " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037783377">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
